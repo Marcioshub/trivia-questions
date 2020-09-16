@@ -19,11 +19,7 @@ export default function Home() {
         </Modal.Header>
         <Modal.Body>
           <h4>Categories</h4>
-          <p>
-            Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-            dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta
-            ac consectetur ac, vestibulum at eros.
-          </p>
+          <p>Each category has over 100+ questions and are addded daily.</p>
           <br />
           <Container>
             <Row>
@@ -198,7 +194,7 @@ export default function Home() {
         <h1>Welcome To Easy Trivia!</h1>
         <p>
           Good with random trivia questions? Take some here for fun. We ask 10
-          questions about the category you chose, come take a look, they are
+          questions about the category you choose, come take a look, they are
           easy.
         </p>
         <p>
