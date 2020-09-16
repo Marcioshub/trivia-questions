@@ -1,13 +1,15 @@
 import React from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import shuffle from "shuffle-array";
 import he from "he";
 import huh from "../images/question.svg";
 import { Jumbotron, Button, Container, Row, Col, Card } from "react-bootstrap";
 
 function Questions(props) {
   function questionFormat(index, question, incorrect_answers, correct_answer) {
-    const all = [...incorrect_answers, correct_answer];
+    const all = shuffle([...incorrect_answers, correct_answer]);
+
     return (
       <Card style={{ padding: 20, margin: 10 }}>
         <Card.Body>
