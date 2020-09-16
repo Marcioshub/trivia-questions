@@ -25,7 +25,7 @@ export default function Home() {
             <Row>
               <Col xs={6} md={4}>
                 <Button
-                  variant="outline-primary"
+                  variant="outline-primary btn-block mb-1"
                   as={Link}
                   to={`/questions/generalknowledge/9`}
                 >
@@ -34,7 +34,7 @@ export default function Home() {
               </Col>
               <Col xs={6} md={4}>
                 <Button
-                  variant="outline-primary"
+                  variant="outline-primary btn-block mb-1"
                   as={Link}
                   to={`/questions/books/10`}
                 >
@@ -43,7 +43,7 @@ export default function Home() {
               </Col>
               <Col xs={6} md={4}>
                 <Button
-                  variant="outline-primary"
+                  variant="outline-primary btn-block mb-1"
                   as={Link}
                   to={`/questions/film/11`}
                 >
@@ -52,7 +52,7 @@ export default function Home() {
               </Col>
               <Col xs={6} md={4}>
                 <Button
-                  variant="outline-primary"
+                  variant="outline-primary btn-block mb-1"
                   as={Link}
                   to={`/questions/music/12`}
                 >
@@ -61,7 +61,7 @@ export default function Home() {
               </Col>
               <Col xs={6} md={4}>
                 <Button
-                  variant="outline-primary"
+                  variant="outline-primary btn-block mb-1"
                   as={Link}
                   to={`/questions/television/14`}
                 >
@@ -70,7 +70,7 @@ export default function Home() {
               </Col>
               <Col xs={6} md={4}>
                 <Button
-                  variant="outline-primary"
+                  variant="outline-primary btn-block mb-1"
                   as={Link}
                   to={`/questions/videogames/15`}
                 >
@@ -79,7 +79,7 @@ export default function Home() {
               </Col>
               <Col xs={6} md={4}>
                 <Button
-                  variant="outline-primary"
+                  variant="outline-primary btn-block mb-1"
                   as={Link}
                   to={`/questions/sciencenature/17`}
                 >
@@ -88,7 +88,7 @@ export default function Home() {
               </Col>
               <Col xs={6} md={4}>
                 <Button
-                  variant="outline-primary"
+                  variant="outline-primary btn-block mb-1"
                   as={Link}
                   to={`/questions/computers/18`}
                 >
@@ -97,7 +97,7 @@ export default function Home() {
               </Col>
               <Col xs={6} md={4}>
                 <Button
-                  variant="outline-primary"
+                  variant="outline-primary btn-block mb-1"
                   as={Link}
                   to={`/questions/mathematics/19`}
                 >
@@ -106,7 +106,7 @@ export default function Home() {
               </Col>
               <Col xs={6} md={4}>
                 <Button
-                  variant="outline-primary"
+                  variant="outline-primary btn-block mb-1"
                   as={Link}
                   to={`/questions/mythology/20`}
                 >
@@ -115,7 +115,7 @@ export default function Home() {
               </Col>
               <Col xs={6} md={4}>
                 <Button
-                  variant="outline-primary"
+                  variant="outline-primary btn-block mb-1"
                   as={Link}
                   to={`/questions/sports/21`}
                 >
@@ -124,7 +124,7 @@ export default function Home() {
               </Col>
               <Col xs={6} md={4}>
                 <Button
-                  variant="outline-primary"
+                  variant="outline-primary btn-block mb-1"
                   as={Link}
                   to={`/questions/history/23`}
                 >
@@ -133,7 +133,7 @@ export default function Home() {
               </Col>
               <Col xs={6} md={4}>
                 <Button
-                  variant="outline-primary"
+                  variant="outline-primary btn-block mb-1"
                   as={Link}
                   to={`/questions/art/25`}
                 >
@@ -142,7 +142,7 @@ export default function Home() {
               </Col>
               <Col xs={6} md={4}>
                 <Button
-                  variant="outline-primary"
+                  variant="outline-primary btn-block mb-1"
                   as={Link}
                   to={`/questions/animals/27`}
                 >
@@ -151,7 +151,7 @@ export default function Home() {
               </Col>
               <Col xs={6} md={4}>
                 <Button
-                  variant="outline-primary"
+                  variant="outline-primary btn-block mb-1"
                   as={Link}
                   to={`/questions/comics/29`}
                 >
@@ -160,7 +160,7 @@ export default function Home() {
               </Col>
               <Col xs={6} md={4}>
                 <Button
-                  variant="outline-primary"
+                  variant="outline-primary btn-block mb-1"
                   as={Link}
                   to={`/questions/animeandmanga/31`}
                 >
@@ -169,7 +169,7 @@ export default function Home() {
               </Col>
               <Col xs={6} md={4}>
                 <Button
-                  variant="outline-primary"
+                  variant="outline-primary btn-block mb-1"
                   as={Link}
                   to={`/questions/cartoons/32`}
                 >
