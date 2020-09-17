@@ -4,7 +4,15 @@ import { Link } from "react-router-dom";
 import shuffle from "shuffle-array";
 import he from "he";
 import huh from "../images/question.svg";
-import { Jumbotron, Button, Container, Row, Col, Card } from "react-bootstrap";
+import {
+  Jumbotron,
+  Button,
+  Container,
+  Row,
+  Col,
+  Card,
+  Alert,
+} from "react-bootstrap";
 
 function Questions(props) {
   function questionFormat(index, question, incorrect_answers, correct_answer) {
@@ -164,12 +172,25 @@ function Questions(props) {
       <br />
       <Container>
         {questions[index]}
-        <div style={{ marginTop: 25, width: "400px" }} className="mx-auto">
+        <div style={{ marginTop: 25 }} className="final-card mx-auto">
           {index === questions.length && questions.length !== 0 ? (
             <Card style={{ padding: 20, margin: 10 }}>
               <Card.Body>
-                <Card.Title>You have finished the quiz!!!</Card.Title>
-                <Card.Text>Final score: {finalScore()}</Card.Text>
+                <Card.Title>You have finished the game!</Card.Title>
+                <Card.Text>
+                  <p>Your final score: {finalScore()}</p>
+                  <br />
+                  {score.map((score, i) => (
+                    <Alert
+                      key={i}
+                      variant={score === answers[i] ? "success" : "danger"}
+                    >
+                      {score === answers[i]
+                        ? score
+                        : `You answered ${score}, but he correct answer is ${answers[i]}`}
+                    </Alert>
+                  ))}
+                </Card.Text>
                 <Container>
                   <br />
                   <Button variant="primary" onClick={restart}>
