@@ -4,7 +4,7 @@ Answer 10 random trivia questions in multiple choice. Written with React, Bootst
 
 ## Installation
 
-before using please install the the required React files
+Before using please install the the required React files
 
 ```bash
 npm install
